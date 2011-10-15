@@ -48,9 +48,6 @@ function my_sisters_place_process_region(&$vars) {
   }
 }
 
-/**
- * 
- */
 function my_sisters_place_breadcrumb($variables) {
   $breadcrumb = $variables['breadcrumb'];
 
@@ -70,3 +67,8 @@ function my_sisters_place_breadcrumb($variables) {
   }
 
 }
+
+/*function my_sisters_place_preprocess_node(&$vars) {
+	if ($node->$nid == '')
+}*/
+

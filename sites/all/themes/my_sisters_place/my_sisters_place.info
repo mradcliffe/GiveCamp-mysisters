@@ -46,6 +46,9 @@ zones[postscript] = 'Postscript'
 
 ; GLOBAL THEME SETTINGS
 
+scripts[] = js/formToWizard.js
+scripts[] = js/theme-script.js
+
 css[global.css][name] = 'Your custom global styles'
 css[global.css][description] = 'This file holds all the globally active custom CSS of your theme.'
 css[global.css][options][weight] = '10'

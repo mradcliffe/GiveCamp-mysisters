@@ -222,7 +222,8 @@ dd {
   margin-bottom: 24px;
 }
 
-blockquote {
+blockquote,
+.blockquote {
 	background: transparent url("../images/bg/quote.png") no-repeat 5px top;
 	margin-bottom: 1.5em;
 	padding-left: 40px;
