@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the My Sisters Content Types feature.
+ */
+
+include_once('my_sisters_content_types.features.inc');
