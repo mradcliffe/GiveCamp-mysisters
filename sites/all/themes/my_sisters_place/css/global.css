@@ -439,7 +439,7 @@ ul#steps li#stepDesc0 {
 }
 
 ul#steps li.current { 
-	background-position: left -40px;
+	background-position: left -39px;
 	color:#000;
 	text-shadow: 1px 1px 0 #fff;
 }
@@ -528,6 +528,7 @@ form .buttons .next {
 	background-color: #b0232a;
 	color: #fff;
 	text-decoration: none;
+	padding: 6px 12px;
 }
 
 form .buttons .prev:hover,
@@ -547,6 +548,10 @@ form .buttons .next {
 form#user-register .form-submit {
 	display: inline-block;
 	float: right;
+}
+
+#webform-client-form-8 fieldset legend {
+	display: none;
 }
 
 /* Skinr Styles */
