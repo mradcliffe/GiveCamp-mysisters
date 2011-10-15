@@ -68,8 +68,3 @@ function my_sisters_place_breadcrumb($variables) {
 
 }
 
-function my_sisters_place_preprocess_node(&$vars) {
-    dpm($vars);
-//	if ($node->$nid == '')
-}
-
