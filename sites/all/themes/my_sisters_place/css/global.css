@@ -1,0 +1,428 @@
+/* Bebas Neue */
+@font-face {
+	font-family: 'BebasNeue';
+	src: url('../fonts/bebas_neue/bebasneue-webfont.eot');
+	src: url('../fonts/bebas_neue/bebasneue-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/bebas_neue/bebasneue-webfont.woff') format('woff'),
+			 url('../fonts/bebas_neue/bebasneue-webfont.ttf') format('truetype'),
+			 url('../fonts/bebas_neue/bebasneue-webfont.svg#BebasNeueRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* Satellite */
+@font-face {
+	font-family: 'Satellite';
+	src: url('../fonts/satellite/satellite-oblique-webfont.eot');
+	src: url('../fonts/satellite/satellite-oblique-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/satellite/satellite-oblique-webfont.woff') format('woff'),
+			 url('../fonts/satellite/satellite-oblique-webfont.ttf') format('truetype'),
+			 url('../fonts/satellite/satellite-oblique-webfont.svg#SatelliteItalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Satellite';
+	src: url('../fonts/satellite/satellite-webfont.eot');
+	src: url('../fonts/satellite/satellite-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/satellite/satellite-webfont.woff') format('woff'),
+			 url('../fonts/satellite/satellite-webfont.ttf') format('truetype'),
+			 url('../fonts/satellite/satellite-webfont.svg#SatelliteRegular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/* GillSans */
+@font-face {
+	font-family: 'GillSans';
+	src: url('../fonts/gillsans/GillSans_regular-webfont.eot');
+	src: url('../fonts/gillsans/GillSans_regular-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/gillsans/GillSans_regular-webfont.woff') format('woff'),
+			 url('../fonts/gillsans/GillSans_regular-webfont.ttf') format('truetype'),
+			 url('../fonts/gillsans/GillSans_regular-webfont.svg#') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GillSans';
+	src: url('../fonts/gillsans/GillSans_light-webfont.eot');
+	src: url('../fonts/gillsans/GillSans_light-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/gillsans/GillSans_light-webfont.woff') format('woff'),
+			 url('../fonts/gillsans/GillSans_light-webfont.ttf') format('truetype'),
+			 url('../fonts/gillsans/GillSans_light-webfont.svg#') format('svg');
+	font-weight: 100;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GillSans';
+	src: url('../fonts/gillsans/gillsans_bold-webfont.eot');
+	src: url('../fonts/gillsans/gillsans_bold-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/gillsans/gillsans_bold-webfont.woff') format('woff'),
+			 url('../fonts/gillsans/gillsans_bold-webfont.ttf') format('truetype'),
+			 url('../fonts/gillsans/gillsans_bold-webfont.svg#') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'GillSans';
+	src: url('../fonts/gillsans/GillSans_italic-webfont.eot');
+	src: url('../fonts/gillsans/GillSans_italic-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/gillsans/GillSans_italic-webfont.woff') format('woff'),
+			 url('../fonts/gillsans/GillSans_italic-webfont.ttf') format('truetype'),
+			 url('../fonts/gillsans/GillSans_italic-webfont.svg#') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'GillSans';
+	src: url('../fonts/gillsans/GillSans_light-italic-webfont.eot');
+	src: url('../fonts/gillsans/GillSans_light-italic-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/gillsans/GillSans_light-italic-webfont.woff') format('woff'),
+			 url('../fonts/gillsans/GillSans_light-italic-webfont.ttf') format('truetype'),
+			 url('../fonts/gillsans/GillSans_light-italic-webfont.svg#') format('svg');
+	font-weight: 100;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'GillSans';
+	src: url('../fonts/gillsans/GillSans_bold-italic-webfont.eot');
+	src: url('../fonts/gillsans/GillSans_bold-italic-webfont.eot?#iefix') format('embedded-opentype'),
+			 url('../fonts/gillsans/GillSans_bold-italic-webfont.woff') format('woff'),
+			 url('../fonts/gillsans/GillSans_bold-italic-webfont.ttf') format('truetype'),
+			 url('../fonts/gillsans/GillSans_bold-italic-webfont.svg#') format('svg');
+	font-weight: bold;
+	font-style: italic;
+}
+
+body {
+	background: #fff url("../images/bg/page_bg.png") repeat left top;
+  font: 16px/1.5 GillSans, Verdana, Helvetica, Arial, sans-serif;
+}
+
+#page {
+	background: transparent url("../images/bg/flare.png") no-repeat right top;
+}
+
+/* base Styles */
+
+a:link, a:visited {
+	color: #333;
+	font-family: Satellite, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	text-decoration: none;
+	text-transform: capitalize;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	color: #5a4099;
+}
+
+hr {
+  margin: 0;
+  padding: 0;
+  border: none;
+  height: 1px;
+  background: #5294c1;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: BebasNeue, Tahoma, Geneva, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+	line-height: 48px;
+}
+
+h2 {
+  font-size: 28px;
+	line-height: 48px;
+}
+
+/* Make site titles the same size if it's an H1 (home) or H2 (internal) */
+h1.site-name {
+  font-size: 36px;
+}
+
+/* Make it a bit smaller for block headers */
+h2.block-title {
+  font-size: 22px;
+	line-height: 24px;
+  margin: 0;
+}
+
+h2.node-title {
+  font-size: 28px;
+	line-height: 48px;
+}
+
+h3 {
+  font-size: 21px;
+	line-height: 24px;
+}
+
+h4 {
+  font-size: 19px;
+}
+
+h5 {
+  font-size: 17px;
+}
+
+h6 {
+  font-size: 15px;
+}
+
+ol {
+  list-style: decimal;
+}
+
+ul {
+  list-style: disc;
+}
+
+ul ul,
+ol ol {
+  padding-top: 1.5em;
+}
+
+.node ol,
+.node ul {
+  padding-left: 1.5em;
+}
+
+.node ul.inline,
+.node ol.inline {
+  padding-left: 0;
+}
+
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol,
+ul, pre, table, address, fieldset {
+  margin-bottom: 24px;
+}
+
+dt, .admin h3 {
+  font-size: 18px;
+  margin: 0;
+}
+
+dd {
+  padding-left: 10px;
+  font-size: 0.9em;
+  font-style: italic;
+  margin-bottom: 24px;
+}
+
+blockquote {
+	background: transparent url("../images/bg/quote.png") no-repeat 5px top;
+	margin-bottom: 1.5em;
+	padding-left: 40px;
+}
+
+/* Branding Elements
+ * -------------------------------------------------------------------------------------------------
+ * Logo ----------------------------------------------------------------------------------------- */
+.branding-data {
+	margin: 24px 0 24px 16px;
+}
+
+/* Menus
+ * -------------------------------------------------------------------------------------------------
+ * Main Menu ------------------------------------------------------------------------------------ */
+.main-nav {
+	margin: 38px 0;
+}
+
+.block-main-menu ul.menu,
+ul.main-menu {
+	display: inline-block;
+	margin-bottom: 0;
+}
+
+.block-main-menu ul li,
+ul.main-menu li {
+	display: inline-block;
+	margin: 0 1em;
+	padding: 0;
+}
+
+.block-main-menu li a:link,
+.block-main-menu li a:visited,
+ul.main-menu a:link,
+ul.main-menu a:visited {
+	color: #000;
+	display: inline-block;
+	font-family: Satellite, "Trebuchet MS", Arial, Helvetica, sans-serif;
+	letter-spacing: 1px;
+	line-height: 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 9px 12px;
+}
+
+.block-main-menu li a:hover,
+.block-main-menu li a:focus,
+ul.main-menu a:hover,
+ul.main-menu a:focus {
+	color: #333;
+}
+
+.block-main-menu li a.active,
+.block-main-menu li a.active-trail,
+ul.main-menu a.active,
+ul.main-menu a.active-trail {
+	background-color: #5a4099;
+	border: medium none;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	color: #fff;
+	text-shadow: -1px -1px 0 #000;
+}
+
+/* Secondary Menu ----------------------------------------------------------------------------- */
+.secondary-nav {
+	text-align: right;
+}
+
+/* Menu Blocks -------------------------------------------------------------------------------- */
+.menu-block-wrapper {
+	background-color: #d9cfc0;
+	padding: 12px;
+}
+
+.menu-block-wrapper ul li.leaf {
+	border-bottom: 2px dotted #b9aeac;
+	list-style-image: none;
+	list-style-type: none;
+	margin: 0 0 10px;
+	padding: 0 0 12px;
+}
+
+.menu-block-wrapper ul li.last {
+	border-bottom: medium none;
+	margin-bottom: 0;
+}
+
+.menu-block-wrapper ul li a:link,
+.menu-block-wrapper ul li a:visited {
+	background: transparent url("../images/list-item_arrow.png") no-repeat left center;
+	text-shadow: 1px 1px 0 #b9aeac;
+	padding-left: 12px;
+}
+
+.menu-block-wrapper ul li a:hover,
+.menu-block-wrapper ul li a:focus {
+	background-position: 6px center;
+	color: #5a4099;
+	text-decoration: none;
+	padding-left: 24px;
+}
+
+.menu-block-wrapper ul li a.active,
+.menu-block-wrapper ul li a.active-trail {
+	background-position: 6px center;
+	color: #5a4099;
+	padding-left: 24px;	
+}
+
+/* Views
+ *
+ * Slideshow --------------------------------------------------------------------------------- */
+.views_slideshow_singleframe_main {
+	height: 400px;
+}
+
+.view-front-page-slideshow {
+	margin-left: -10px;
+	position: relative;
+	width: 960px;
+	height: 400px;
+}
+
+.view-front-page-slideshow .views-row {
+	position: relative;
+	width: 960px;
+	height: 400px;
+}
+
+.view-front-page-slideshow .slide {
+	position: absolute;
+	z-index: 1;
+}
+
+/* Slideshow Controls */
+.views-slideshow-controls-bottom {
+	position: absolute;
+	right: 1em;
+	bottom: 1em;
+	z-index: 50;
+}
+
+.views-slideshow-controls-bottom .pager-item {}
+
+.views-slideshow-controls-bottom a:link,
+.views-slideshow-controls-bottom a:visited {
+	background: transparent url('../images/bg/slide_pager.png') no-repeat center top;
+	display: inline-block;
+	text-indent: -9999px;
+	font-size: 0;
+	width: 34px;
+	height: 34px;
+}
+
+.views-slideshow-controls-bottom a:hover,
+.views-slideshow-controls-bottom a:focus,
+.views-slideshow-controls-bottom .activeSlide a {
+	background-position: center bottom;
+}
+
+/* News */
+.news-item {}
+
+.news-item img {
+	float: left;
+	vertical-align: bottom;
+}
+
+.news-item .title {}
+
+.news-item .submitted {}
+
+.news-item .teaser {}
+
+.news-item .more-link {}
+
+
+/* Skinr Styles */
+.msp-solid .block-title {
+	color: #948671;
+	font-weight: normal;
+	text-shadow: 0px 1px 0px #fff;
+	margin-bottom: 24px;
+}
+
+.msp-solid .block-inner {
+  background-color: #d3c4ae;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#d3c4ae), to(#948671)); 
+  background-image: -webkit-linear-gradient(top, #d3c4ae, #948671); 
+  background-image: -moz-linear-gradient(top, #d3c4ae, #948671); 
+  background-image: -ms-linear-gradient(top, #d3c4ae, #948671); 
+  background-image: -o-linear-gradient(top, #d3c4ae, #948671); 
+  background-image: linear-gradient(top, #d3c4ae, #948671);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#d3c4ae', EndColorStr='#948671');
+	border: 1px solid #231f20;
+  box-shadow: 0px 0px 60px #d9cfc0 inset;
+  -moz-box-shadow: 0px 0px 60px #d9cfc0 inset;
+  -webkit-box-shadow: 0px 0px 60px #d9cfc0 inset;
+	padding: 24px 16px 24px 24px;
+}
