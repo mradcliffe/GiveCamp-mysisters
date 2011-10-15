@@ -32,6 +32,10 @@ function my_sisters_place_skinr_skin_msp_info() {
         'title' => 'Solid Background with Inner Glow',
         'class' => array('msp-solid'),
       ),
+			'msp-block-menu' => array(
+				'title' => 'For use with menu blocks',
+				'class' => array('msp-block-menu'),
+			),
     ),
   );
 	
