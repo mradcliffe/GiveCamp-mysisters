@@ -12,7 +12,7 @@
  */
 
 function my_sisters_place_process_region(&$vars) {
-  if (in_array($vars['elements']['#region'], array('content', 'menu', 'user_second', 'branding'))) {
+	if (in_array($vars['elements']['#region'], array('content', 'menu', 'user_second', 'branding'))) {
     $theme = alpha_get_theme();
     
     switch ($vars['elements']['#region']) {
