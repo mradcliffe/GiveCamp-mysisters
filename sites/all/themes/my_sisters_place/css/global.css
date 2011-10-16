@@ -380,7 +380,7 @@ ul.main-menu a.active-trail {
 	position: absolute;
 	left: 20px;
 	top: 200px;
-	z-index: 3;
+	z-index: 4;
 }
 
 .views-slideshow-cycle-main-frame .views-field-body {
@@ -391,12 +391,14 @@ ul.main-menu a.active-trail {
 	height: 150px;
 	background-color: #fff;
 	padding-top: 72px;
+	z-index: 2;
 }
 
 .views-slideshow-cycle-main-frame .views-field-view-node {
 	position: absolute;
 	left: 250px;
 	bottom: 20px;
+	z-index: 3;
 }
 
 /* Slideshow Controls */
