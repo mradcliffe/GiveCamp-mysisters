@@ -12,7 +12,7 @@
  */
 
 function my_sisters_place_process_region(&$vars) {
-	if (in_array($vars['elements']['#region'], array('content', 'menu', 'user_second', 'branding'))) {
+	if (in_array($vars['elements']['#region'], array('content', 'menu', 'branding'))) {
     $theme = alpha_get_theme();
     
     switch ($vars['elements']['#region']) {
@@ -30,9 +30,9 @@ function my_sisters_place_process_region(&$vars) {
         $vars['main_menu'] = $theme->page['main_menu'];
 				break;
 				
-			case 'user_second':
+			/*case 'user_second':
         $vars['secondary_menu'] = $theme->page['secondary_menu'];
-        break;
+        break;*/
       
       case 'branding':
         $vars['site_name'] = $theme->page['site_name'];
