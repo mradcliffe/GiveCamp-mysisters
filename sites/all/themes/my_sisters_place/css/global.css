@@ -317,7 +317,7 @@ ul.main-menu a.active-trail {
 /* Menu Blocks -------------------------------------------------------------------------------- */
 .msp-block-menu {
 	background-color: #d9cfc0;
-	padding: 12px;
+	padding: 12px 12px 0;
 }
 
 .msp-block-menu ul li,
@@ -332,6 +332,16 @@ ul.main-menu a.active-trail {
 .msp-block-menu ul li.last {
 	border-bottom: medium none;
 	margin-bottom: 0;
+	padding-bottom: 0;
+}
+
+.msp-block-menu ul ul {
+	padding-top: 12px;
+}
+
+.msp-block-menu ul ul li.first {
+	border-top: 2px dotted #b9aeac;
+	padding-top: 10px;
 }
 
 .msp-block-menu ul li a:link,
