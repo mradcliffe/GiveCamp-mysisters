@@ -504,6 +504,7 @@ ul#steps li {
   min-height: 36px;
   max-height: 36px;
   position: relative;
+	zoom: 1;
 }
 
 ul#steps li#stepDesc0 {
