@@ -388,6 +388,17 @@ ul.main-menu a.active-trail {
   border-bottom: 4px solid #659565;
 }
 
+#constant-contact-signup-form {
+  border-bottom: 4px solid #659565;
+  border-right: 4px solid #659565;
+  border-radius: 15px;
+  padding: 10px 15px;
+}
+
+#constant-contact-signup-form div, label {
+  display: inline;
+}
+
 /* Views
  *
  * Slideshow --------------------------------------------------------------------------------- */
