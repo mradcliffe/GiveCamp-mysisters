@@ -337,6 +337,7 @@ ul.main-menu a.active-trail {
 
 .msp-block-menu ul ul {
 	padding-top: 12px;
+	margin-left: 12px;
 }
 
 .msp-block-menu ul ul li.first {
