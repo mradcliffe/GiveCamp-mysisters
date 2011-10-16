@@ -238,7 +238,7 @@ blockquote,
  * -------------------------------------------------------------------------------------------------
  * Logo ----------------------------------------------------------------------------------------- */
 .branding-data {
-	margin: 24px 0 24px 16px;
+	margin: 0 0 24px 72px;
 }
 
 /* Menus
@@ -400,6 +400,10 @@ ul.main-menu a.active-trail {
 .widget_pager_bottom .views-content-position.active,
 .widget_pager_bottom .views-content-position:hover {
 	background-position: center top;
+}
+
+.img {
+	width: 100%;
 }
 
 /* News */
