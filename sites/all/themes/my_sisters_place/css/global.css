@@ -331,7 +331,6 @@ ul.main-menu a.active-trail {
 
 .msp-block-menu ul li.last {
 	border-bottom: medium none;
-	margin-bottom: 0;
 	padding-bottom: 0;
 }
 
@@ -343,6 +342,11 @@ ul.main-menu a.active-trail {
 .msp-block-menu ul ul li.first {
 	border-top: 2px dotted #b9aeac;
 	padding-top: 10px;
+}
+
+.msp-block-menu ul ul li.last {
+	margin-bottom: 0;
+	padding-bottom: 0;
 }
 
 .msp-block-menu ul li a:link,
@@ -662,4 +666,10 @@ form.webform-client-form {
   -moz-box-shadow: 0px 0px 60px #d9cfc0 inset;
   -webkit-box-shadow: 0px 0px 60px #d9cfc0 inset;
 	padding: 24px 16px 24px 24px;
+}
+
+/* Sharethis */
+.sharethis {
+	margin: 12px 0;
+	text-align: right;
 }
