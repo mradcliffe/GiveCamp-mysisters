@@ -301,6 +301,15 @@ ul.main-menu a.active-trail {
 	text-align: right;
 }
 
+.region-user-second ul.menu {
+	float: right;
+}
+
+.region-user-second ul.menu li {
+	display: inline-block;
+	list-style: none outside none;
+}
+
 /* Menu Blocks -------------------------------------------------------------------------------- */
 .msp-block-menu {
 	background-color: #d9cfc0;
