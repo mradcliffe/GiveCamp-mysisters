@@ -572,6 +572,14 @@ ul#steps a:visited {
 	text-decoration: none;
 }
 
+td.active,
+tr:hover td,
+tr.even:hover,
+tr.odd:hover,
+td.active {
+  background: none;
+}
+
 ul#steps a:hover {
 	cursor: default;
 }
