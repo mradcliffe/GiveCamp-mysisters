@@ -238,7 +238,7 @@ blockquote,
  * -------------------------------------------------------------------------------------------------
  * Logo ----------------------------------------------------------------------------------------- */
 .branding-data {
-	margin: 0 0 24px 72px;
+	margin: 0 0 24px 24px;
 }
 
 /* Menus
@@ -262,7 +262,7 @@ ul.main-menu {
 .block-main-menu ul li,
 ul.main-menu li {
 	display: inline-block;
-	margin: 0 1em;
+	margin: 0 0 0 1.4em;
 	padding: 0;
 }
 
@@ -277,7 +277,7 @@ ul.main-menu a:visited {
 	line-height: 24px;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 9px;
+	padding: 9px 0;
 }
 
 .block-main-menu li a:hover,
