@@ -364,6 +364,11 @@ ul.main-menu a.active-trail {
   padding-top: 23px;
 }
 
+.region-user-second .menu-block-wrapper ul.menu {
+  margin-top: 5px;
+  border-bottom: 4px solid #659565;
+}
+
 /* Views
  *
  * Slideshow --------------------------------------------------------------------------------- */
