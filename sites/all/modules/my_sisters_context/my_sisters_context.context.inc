@@ -32,6 +32,18 @@ function my_sisters_context_context_default_contexts() {
           'region' => 'sidebar_first',
           'weight' => '-10',
         ),
+        'block-5' => array(
+          'module' => 'block',
+          'delta' => 5,
+          'region' => 'sidebar_first',
+          'weight' => '-9',
+        ),
+        'block-4' => array(
+          'module' => 'block',
+          'delta' => 4,
+          'region' => 'sidebar_first',
+          'weight' => '-8',
+        ),
         'views-calendar-block_2' => array(
           'module' => 'views',
           'delta' => 'calendar-block_2',
@@ -78,6 +90,18 @@ function my_sisters_context_context_default_contexts() {
           'region' => 'sidebar_first',
           'weight' => '-10',
         ),
+        'block-5' => array(
+          'module' => 'block',
+          'delta' => 5,
+          'region' => 'sidebar_first',
+          'weight' => '-9',
+        ),
+        'block-4' => array(
+          'module' => 'block',
+          'delta' => 4,
+          'region' => 'sidebar_first',
+          'weight' => '-8',
+        ),
         'views-calendar-block_2' => array(
           'module' => 'views',
           'delta' => 'calendar-block_2',
@@ -118,17 +142,23 @@ function my_sisters_context_context_default_contexts() {
   $context->reactions = array(
     'block' => array(
       'blocks' => array(
-        'views-testimonials-block' => array(
-          'module' => 'views',
-          'delta' => 'testimonials-block',
-          'region' => 'sidebar_first',
-          'weight' => '-10',
-        ),
         'views-calendar-block_2' => array(
           'module' => 'views',
           'delta' => 'calendar-block_2',
           'region' => 'sidebar_first',
           'weight' => '-10',
+        ),
+        'block-5' => array(
+          'module' => 'block',
+          'delta' => 5,
+          'region' => 'sidebar_first',
+          'weight' => '-9',
+        ),
+        'views-testimonials-block' => array(
+          'module' => 'views',
+          'delta' => 'testimonials-block',
+          'region' => 'sidebar_first',
+          'weight' => '-7',
         ),
         'views-slideshow-block' => array(
           'module' => 'views',
@@ -168,6 +198,18 @@ function my_sisters_context_context_default_contexts() {
           'delta' => 'testimonials-block',
           'region' => 'sidebar_first',
           'weight' => '-10',
+        ),
+        'block-5' => array(
+          'module' => 'block',
+          'delta' => 5,
+          'region' => 'sidebar_first',
+          'weight' => '-9',
+        ),
+        'block-4' => array(
+          'module' => 'block',
+          'delta' => 4,
+          'region' => 'sidebar_first',
+          'weight' => '-8',
         ),
         'views-calendar-block_2' => array(
           'module' => 'views',

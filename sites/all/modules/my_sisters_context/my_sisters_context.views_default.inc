@@ -537,11 +537,12 @@ function my_sisters_context_views_default_views() {
   $handler->display->display_options['row_options']['date_field'] = 'node.changed';
   $handler->display->display_options['path'] = 'calendar/ical/%/calendar.cal';
   $handler->display->display_options['displays'] = array(
-    'page' => 'page',
     'page_1' => 'page_1',
     'page_2' => 'page_2',
     'page_3' => 'page_3',
+    'page' => 'page',
     'block_1' => 'block_1',
+    'block_2' => 'block_2',
     'default' => 0,
   );
 
@@ -957,6 +958,8 @@ function my_sisters_context_views_default_views() {
 
   /* Display: Block 2 */
   $handler = $view->new_display('block', 'Block 2', 'block_2');
+  $handler->display->display_options['defaults']['title'] = FALSE;
+  $handler->display->display_options['title'] = 'Articles';
   $handler->display->display_options['defaults']['filters'] = FALSE;
   /* Filter criterion: Content: Published */
   $handler->display->display_options['filters']['status']['id'] = 'status';
@@ -1251,7 +1254,8 @@ function my_sisters_context_views_default_views() {
   $handler->display->display_options['fields']['body']['field'] = 'body';
   $handler->display->display_options['fields']['body']['label'] = '';
   $handler->display->display_options['fields']['body']['alter']['alter_text'] = 0;
-  $handler->display->display_options['fields']['body']['alter']['make_link'] = 0;
+  $handler->display->display_options['fields']['body']['alter']['make_link'] = 1;
+  $handler->display->display_options['fields']['body']['alter']['path'] = 'node/[nid]';
   $handler->display->display_options['fields']['body']['alter']['absolute'] = 0;
   $handler->display->display_options['fields']['body']['alter']['external'] = 0;
   $handler->display->display_options['fields']['body']['alter']['replace_spaces'] = 0;
@@ -1279,6 +1283,7 @@ function my_sisters_context_views_default_views() {
   $handler->display->display_options['fields']['view_node']['table'] = 'node';
   $handler->display->display_options['fields']['view_node']['field'] = 'view_node';
   $handler->display->display_options['fields']['view_node']['label'] = '';
+  $handler->display->display_options['fields']['view_node']['exclude'] = TRUE;
   $handler->display->display_options['fields']['view_node']['alter']['alter_text'] = 0;
   $handler->display->display_options['fields']['view_node']['alter']['make_link'] = 0;
   $handler->display->display_options['fields']['view_node']['alter']['absolute'] = 0;
