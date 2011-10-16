@@ -607,6 +607,11 @@ form#user-register .form-submit {
 	float: right;
 }
 
+form.webform-client-form {
+  background-color: #ffffff;
+  padding: 5px 8px;
+}
+
 #webform-client-form-8 fieldset legend {
 	display: none;
 }
