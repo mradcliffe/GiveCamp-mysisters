@@ -673,3 +673,7 @@ form.webform-client-form {
 	margin: 12px 0;
 	text-align: right;
 }
+
+.sharethis .sharethis {
+	margin: 0;
+}
