@@ -418,7 +418,7 @@ ul.main-menu a.active-trail {
 
 .views-slideshow-cycle-main-frame .views-field-view-node {
 	bottom: 20px;
-	left: 250px;
+	left: 480px;
 	position: absolute;
 	z-index: 3;
 }
@@ -609,6 +609,11 @@ form .buttons .next {
 form#user-register .form-submit {
 	display: inline-block;
 	float: right;
+}
+
+form.webform-client-form {
+  background-color: #ffffff;
+  padding: 5px 8px;
 }
 
 #webform-client-form-8 fieldset legend {
