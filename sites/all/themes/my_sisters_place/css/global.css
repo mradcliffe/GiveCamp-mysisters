@@ -354,7 +354,7 @@ ul.main-menu a.active-trail {
 /* Views
  *
  * Slideshow --------------------------------------------------------------------------------- */
-.views_slideshow_singleframe_main {
+.views-slideshow-cycle-main-frame {
 	height: 400px;
 }
 
@@ -365,15 +365,38 @@ ul.main-menu a.active-trail {
 	height: 400px;
 }
 
-.view-front-page-slideshow .views-row {
+.views-slideshow-cycle-main-frame .views-row {
 	position: relative;
 	width: 960px;
 	height: 400px;
 }
 
-.view-front-page-slideshow .slide {
+.views-slideshow-cycle-main-frame .views-field-field-media {
 	position: absolute;
 	z-index: 1;
+}
+
+.views-slideshow-cycle-main-frame .views-field-title {
+	position: absolute;
+	left: 20px;
+	top: 200px;
+	z-index: 3;
+}
+
+.views-slideshow-cycle-main-frame .views-field-body {
+	position: absolute;
+	left: 0;
+	top: 180px;
+	width: 300px;
+	height: 150px;
+	background-color: #fff;
+	padding-top: 72px;
+}
+
+.views-slideshow-cycle-main-frame .views-field-view-node {
+	position: absolute;
+	left: 250px;
+	bottom: 20px;
 }
 
 /* Slideshow Controls */
