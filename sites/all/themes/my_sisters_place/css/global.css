@@ -320,6 +320,7 @@ ul.main-menu a.active-trail {
 	padding: 12px;
 }
 
+.msp-block-menu ul li,
 .msp-block-menu ul li.leaf {
 	border-bottom: 2px dotted #b9aeac;
 	list-style-image: none;
@@ -353,6 +354,14 @@ ul.main-menu a.active-trail {
 	background-position: 6px center;
 	color: #5a4099;
 	padding-left: 24px;	
+}
+
+/* Region wrapper backgrounds */
+#zone-footer-wrapper {
+  background-color: #D9CFC0;
+  border-top: 1px solid #130F10;
+  box-shadow: 0 0 10px #333333;
+  padding-top: 23px;
 }
 
 /* Views
