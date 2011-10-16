@@ -9,6 +9,29 @@
  */
 function my_sisters_content_types_taxonomy_default_vocabularies() {
   return array(
+    'article_category' => array(
+      'name' => 'Article Category',
+      'machine_name' => 'article_category',
+      'description' => 'Categories that group articles.',
+      'hierarchy' => '1',
+      'module' => 'taxonomy',
+      'weight' => '0',
+      'rdf_mapping' => array(
+        'rdftype' => array(
+          0 => 'skos:ConceptScheme',
+        ),
+        'name' => array(
+          'predicates' => array(
+            0 => 'dc:title',
+          ),
+        ),
+        'description' => array(
+          'predicates' => array(
+            0 => 'rdfs:comment',
+          ),
+        ),
+      ),
+    ),
     'event_category' => array(
       'name' => 'Event Category',
       'machine_name' => 'event_category',
