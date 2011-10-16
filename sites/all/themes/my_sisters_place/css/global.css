@@ -262,7 +262,7 @@ ul.main-menu {
 .block-main-menu ul li,
 ul.main-menu li {
 	display: inline-block;
-	margin: 0 0 0 1.4em;
+	margin: 0 3px;
 	padding: 0;
 }
 
@@ -277,7 +277,7 @@ ul.main-menu a:visited {
 	line-height: 24px;
 	text-decoration: none;
 	text-transform: uppercase;
-	padding: 9px 0;
+	padding: 9px;
 }
 
 .block-main-menu li a:hover,
@@ -357,6 +357,10 @@ ul.main-menu a.active-trail {
 }
 
 /* Region wrapper backgrounds */
+#region-content {
+	margin-bottom: 24px;
+}
+
 #zone-footer-wrapper {
   background-color: #D9CFC0;
   border-top: 1px solid #130F10;
