@@ -30,7 +30,7 @@
   <?php foreach ($footermap as $key => $header) { 
     foreach (element_children($header['#items']) as $child) { 
       $footermap[$key]['#items'][$child]['#theme'] = 'footermap_header'; 
-      $new[] = $child;
+      $new[] = $footermap[$key]['#items'][$child];
     }
    } ?>
   <div id="<?php print 'footermap-col-' . $key; ?>" class="footermap-col">
