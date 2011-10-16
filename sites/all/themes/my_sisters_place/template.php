@@ -51,6 +51,7 @@ function my_sisters_place_process_region(&$vars) {
 function my_sisters_place_preprocess_node(&$variables) {
   $node = $variables['node'];
 
+  $variables['content']['my_additional_field']['#markup'] = '<div class="sharethis">' . $variables['content']['my_additional_field']['#markup'] . '</div>';
   $variables['content']['my_additional_field']['#weight'] = -20;
   $variables['display_submitted'] = FALSE;
 
